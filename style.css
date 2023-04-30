@@ -122,17 +122,18 @@ $maron: rgba(199,169,149,1);
 
 
 .image-container {
-    width: 50px;
-    left: 90%
+    width: 70px;
+    height: 20px;
+    
 }
 
 .image-container img{
 
     width: 70px;
     height: 20px;
-    border: none !important;
+   
     position: absolute;
-    right: 68%;
+    left: 26.5%;
     top: 91%;
 }
 
@@ -143,7 +144,7 @@ figcaption {
     text-align: center;
     color: #2a292a;
     position: relative;
-    bottom: 20%;
+    bottom: 24%;
     
 }
 
@@ -182,7 +183,7 @@ label {
 #upload-caption {
     padding: 0;
     position: relative;
-    bottom: 115%;
+    bottom: 130%;
     opacity: 1;
 }
 
