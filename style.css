@@ -131,8 +131,7 @@ $maron: rgba(199,169,149,1);
 
     width: 70px;
     height: 20px;
-   
-    position: absolute;
+    position: fixed;
     left: 26.5%;
     top: 91%;
 }
