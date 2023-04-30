@@ -1,0 +1,204 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    overflow-y: hidden;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 20%;
+}
+
+.all_colors {
+    margin-top: -3px;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+
+.main-container li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 15px;
+    list-style: none;
+    
+}
+
+.image {
+    border: none;
+    margin-left: 150px;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+}
+.sub-title {
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+.ins1 {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.ins2 {
+    font-size: 10px;
+    
+}
+
+.file {
+    padding: 3px;
+    width: 250px;
+    height: 25px;
+    border: none;
+   
+}
+
+
+
+#blueButton {
+    background: rgb(10, 170, 233);
+    border: 2px solid rgb(11, 140, 190);
+    cursor: pointer;
+    /* background: rgb(178, 223, 240); */
+
+
+}
+
+#pinkButton{
+    background: rgb(223, 89, 210);
+    border: 2px solid rgb(203, 15, 185);
+    cursor: pointer;
+    /* background: rgb(247, 185, 241); */
+}
+
+#yellowButton {
+    background: rgb(237, 237, 111);
+    border: 2px solid rgb(208, 208, 9);
+    cursor: pointer;
+    /* background: rgb(245, 245, 202); */
+}
+
+
+
+$root: rgba(27, 27, 27 ,1);
+$white: rgba(255,255,255,1);
+$maron: rgba(199,169,149,1);
+
+@mixin transition($time) {
+  transition: all $time ease;
+}
+@mixin center {
+  top:50%;
+  transform: translateY(-50%);
+}
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+
+#container-svg {
+    opacity: 0;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 64%;
+    left: 29%;
+}
+
+
+.image-container {
+    width: 50px;
+    left: 90%
+}
+
+.image-container img{
+
+    width: auto;
+    height: 20px;
+    border: none !important;
+    position: absolute;
+    right: 68.5%;
+    top: 91%;
+}
+
+
+figcaption {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: #2a292a;
+    position: relative;
+    bottom: 20%;
+    
+}
+
+.file-name {
+    opacity: 0;
+}
+
+
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: block;
+    position: relative;
+    background-color:#025bee ;
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    padding: 2px 0;
+    margin: auto;
+    cursor: pointer;
+    height: 30px;
+    
+}
+
+#upload-icon {
+    position: relative;
+    right: 40%;
+    opacity: 1;
+    top: 20%;
+
+}
+
+#upload-caption {
+    padding: 0;
+    position: relative;
+    bottom: 115%;
+    opacity: 1;
+}
+
+#button-svg {
+    opacity: 0;
+    position: relative;
+    right: 31%;
+    margin-top: 225px;
+}
+
+
+#cross {
+    position: relative;
+    right: 7.5%;
+    margin-top: 225px;
+    opacity: 0;
+}
+
+
