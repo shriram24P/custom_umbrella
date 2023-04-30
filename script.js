@@ -51,15 +51,6 @@ function switchYellow() {
   }, 2000);
 }
 
-// const file = document.querySelector("#file");
-// file.addEventListener("change", function () {
-//   const reader = new FileReader();
-//   reader.addEventListener("load", () => {
-//     document.querySelector("#uploadImg").src = reader.result;
-//   });
-//   reader.readAsDataURL(this.files[0]);
-// });
-
 let uploadButton = document.getElementById("upload-button");
 let chosenImage = document.getElementById("chosen-image");
 let fileName = document.getElementById("file-name");
