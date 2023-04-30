@@ -128,11 +128,11 @@ $maron: rgba(199,169,149,1);
 
 .image-container img{
 
-    width: auto;
+    width: 70px;
     height: 20px;
     border: none !important;
     position: absolute;
-    right: 68.5%;
+    right: 68%;
     top: 91%;
 }
 
